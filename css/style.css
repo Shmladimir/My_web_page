@@ -1,8 +1,106 @@
+@font-face{
+    font-family: 'ReemKufi' ;
+    src: url(../fonts/ReemKufi-Regular.ttf);
+}
+
+@font-face{
+    font-family: 'ReenieBeanie' ;
+    src: url(../fonts/ReenieBeanie-Regular.ttf);
+}
+
 *{
     padding: 0;
     margin: 0;
+    font-family: 'ReemKufi';
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(252, 252, 252);
+}
+
+div{
+    font-size: 15pt;
 }
 
 body{
-    background-color: red;
+    background-color: #A1A2A7;
+    background-image: url(/images/backgrounds/bg-lines.png);
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+
+header{
+    background-image: url(/images/backgrounds/bg-top.png);
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
+
+header>div:nth-child(1){
+     height: 20px;
+     width: 220px;
+}
+/*TOP NAV*/
+.top_nav{
+ flex: 0 1 auto;
+ padding-right: 50px;
+}
+.top_nav>ul>li{
+display: inline-block;
+padding: 10px;
+    
+}
+
+.avatar{
+     
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding-top: 50px;
+}
+
+.avatar>div{
+    flex: 0 1 auto;
+}
+
+.main_foto{
+    display: block;
+    background-image: url(/images/icons/gdpr-white.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+.name_web{
+    display: flex;
+ flex-flow: column nowrap;
+ justify-content: center;
+ align-items: center;
+ align-content: flex-end;
+
+}
+.name{
+    font-size: 60pt;
+    font-family: 'ReenieBeanie' ;
+}
+
+.web{
+    align-self: flex-end;
+    margin-top: -20px;
+}
+
+/* MAIN BLOCK */
+
+.main_block{
+    /* height: 500px; */
+    width: 50vw;
+    margin: auto;
+    background-color: #3D5065;
+    opacity: 0.89;
 }
