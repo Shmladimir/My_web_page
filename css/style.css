@@ -47,20 +47,26 @@ body{
 
 header{
     background-image: url(/images/backgrounds/bg-top.png);
-    height: 100%;
-    display: flex;
-    justify-content: space-between;
-    padding-bottom: 50px;
+    /* height: 100%; */
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    padding: 60px 0px;
+    
 }
 
-header>div:nth-child(1){
-     height: 20px;
-     width: 220px;
+header>div:nth-last-child(){
+    align-content: center;
 }
+
 /*TOP NAV*/
 .top_nav{
  flex: 0 1 auto;
- padding-right: 50px;
+ /* padding-right: 50px; */
+}
+
+.top_nav{
+    margin: auto;
+    margin-top: 0px;
 }
 .top_nav>ul>li{
 display: inline-block;
@@ -75,7 +81,7 @@ padding: 10px;
     justify-content: center;
     align-items: center;
     align-content: center;
-    padding-top: 50px;
+
 }
 
 .avatar>div{
@@ -100,7 +106,7 @@ padding: 10px;
 
 }
 .name{
-    font-size: 60pt;
+    font-size: 5em;
     font-family: 'ReenieBeanie' ;
 }
 
