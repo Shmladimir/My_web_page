@@ -1,4 +1,4 @@
-@font-face{
+..@font-face{
     font-family: 'ReemKufi' ;
     src: url(../fonts/ReemKufi-Regular.ttf);
 }
@@ -217,7 +217,7 @@ footer>div{
 }
 
 .imageFirst{
-    background-image: url(/images/icons/gdpr-white.png);
+    background-image: url(../images/icons/gdpr-white.png);
     background-repeat: no-repeat;
     width: 100px;
     height: 100px;
@@ -226,7 +226,7 @@ footer>div{
 }
 
 .designIcon{
-    background-image: url(/images/icons/web-design-wite.png);
+    background-image: url(../images/icons/web-design-wite.png);
     background-repeat: no-repeat;
     width: 80px;
     height: 80px;
@@ -236,7 +236,7 @@ footer>div{
 }
 
 .fullStackIcon{
-    background-image: url(/images/icons/coding-white.png);
+    background-image: url(../images/icons/coding-white.png);
     background-repeat: no-repeat;
     width: 80px;
     height: 80px;
@@ -246,7 +246,7 @@ footer>div{
 }
 
 .psIcon{
-    background-image: url(/images/icons/Ps.png);
+    background-image: url(../images/icons/Ps.png);
     background-repeat: no-repeat;
     height: 80px;
     width: 80px;
@@ -255,7 +255,7 @@ footer>div{
 }
 
 .aiIcon{
-    background-image: url(/images/icons/Ai.png);
+    background-image: url(../images/icons/Ai.png);
     background-repeat: no-repeat;
     width: 80px;
     height: 80px;
@@ -264,7 +264,7 @@ footer>div{
 }
 
 .prIcon{
-    background-image: url(/images/icons/Pr.png);
+    background-image: url(../images/icons/Pr.png);
     background-repeat: no-repeat;
     width: 80px;
     height: 80px;
@@ -273,7 +273,7 @@ footer>div{
 }
 
 .vk{
-    background-image: url(/images/icons/vk.png);
+    background-image: url(../images/icons/vk.png);
     background-repeat: no-repeat;
     width: 25px;
     height: 25px;
@@ -281,7 +281,7 @@ footer>div{
 }
 
 .inst{
-    background-image: url(/images/icons/instagram.png);
+    background-image: url(../images/icons/instagram.png);
     background-repeat: no-repeat;
     width: 25px;
     height: 25px;
@@ -289,7 +289,7 @@ footer>div{
 }
 
 .email{
-    background-image: url(/images/icons/email.png);
+    background-image: url(../images/icons/email.png);
     background-repeat: no-repeat;
     width: 25px;
     height: 25px;
