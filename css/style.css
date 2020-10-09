@@ -18,6 +18,12 @@
 a{
     text-decoration: none;
     color: rgb(252, 252, 252);
+    font-weight: lighter;
+    
+}
+
+a:hover{
+    transition: 1s;
 }
 
 h5{
@@ -25,16 +31,18 @@ h5{
     font-weight: 100;
     text-align: center;
     margin: 20px 0px;
+    letter-spacing: 0.5pt;
 }
 
 h6{
-    font-size: 15pt;
+    font-size: 14pt;
     font-weight: 100;
     
 }
 
 p{
-    font-size: 12pt;
+    font-size: 11pt;
+    font-weight: 100;
 }
 
 div{
@@ -74,7 +82,13 @@ header>div:nth-last-child(){
 .top_nav>ul>li{
 display: inline-block;
 padding: 10px;
-    
+font-size: 10pt;
+}
+
+.top_nav>ul>li:hover{
+    font-size: 11pt;
+    transition: 0.1s;
+    padding: 9px;
 }
 
 .avatar{
@@ -93,7 +107,7 @@ padding: 10px;
 
 .main_foto{
     display: block;
-    background-image: url(/images/icons/gdpr-white.png);
+    background-image: url(/images/avatar.jpg);
     background-size: contain;
     background-repeat: no-repeat;
     height: 200px;
@@ -111,11 +125,13 @@ padding: 10px;
 .name{
     font-size: 5em;
     font-family: 'ReenieBeanie' ;
+    font-weight: 100;
 }
 
 .web{
     align-self: flex-end;
     margin-top: -20px;
+    font-weight:100;
 }
 
 /* MAIN BLOCK */
@@ -126,11 +142,11 @@ padding: 10px;
     margin: auto;
     background-color: #3D5065;
     opacity: 0.89;
-    padding: 5%;
+    padding: 50px 5% 70px 5%;
 }
 
 .main_block>div{
-    margin-bottom: 30px;
+    /* margin-bottom: 30px; */
 }
 
 .hello_block{
@@ -147,7 +163,7 @@ padding: 10px;
 }
 
 .hello_block>div>h5{
-    margin: 0px;
+    /* margin: 0px; */
 }
 
 .hello_block>div>p{
@@ -155,16 +171,22 @@ padding: 10px;
     width: 80%;
     align-items: center;
     text-align: center;
-    margin-top: 20px;
-}
-
-.desing{
-    /* display: grid;
-    grid-template-rows: 1fr 4fr; */
+    /* margin-top: 20px; */
 }
 
 .what_can_i_block>div:nth-of-type(1){
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
+}
+
+.design{
+    min-height: 80px;
+    margin-bottom: 25px;
+}
+
+.fullStack{
+    /* margin: 0px 30px 0px 50px; */
+    /* margin-bottom: 50px; */
+    min-height: 80px;
 }
 
 .fullStack>div>h6, .fullStack>div>p{
@@ -175,8 +197,14 @@ padding: 10px;
     float: left;
 }
 
+
 .skills_block{
-    margin-bottom: 25px;
+    margin-bottom: 20px;
+    min-height: 80px;
+}
+
+.contacts{
+    /* margin-bottom: 10px; */
 }
 
 .social{
@@ -187,22 +215,25 @@ padding: 10px;
     margin: auto;
 }
 
-.social>div{
-    display: inline-block;
+.social>a{
     margin: 0px 5px;
 }
 
 footer{
     width: 100%;
-    height: 60px;
+    height: 50px;
     background-color: rgba(125, 125, 125, 0.3);
-    margin-top: -75px;
+    margin-top: -50px;
     text-align: center;
     /* padding:0px 10px 0px 5px; */
-}
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    justify-items: center;
 
-footer>p:nth-of-type(1){
-    margin-top: 10px;
+}
+footer>div{
+    font-size: 10pt;
 }
 
 /* */
@@ -213,7 +244,7 @@ footer>p:nth-of-type(1){
     width: 100px;
     height: 100px;
     background-size: contain;
-    padding-bottom: 20px;
+
 }
 
 .designIcon{
