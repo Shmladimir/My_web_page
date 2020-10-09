@@ -9,17 +9,17 @@
 }
 
 *{
-    padding: 0;
-    margin: 0;
+    padding: 0px;
+    margin: 0px;
     font-family: 'ReemKufi';
     color: white;
+    user-select: none;
 }
 
 a{
     text-decoration: none;
     color: rgb(252, 252, 252);
     font-weight: lighter;
-    
 }
 
 a:hover{
@@ -37,7 +37,6 @@ h5{
 h6{
     font-size: 14pt;
     font-weight: 100;
-    
 }
 
 p{
@@ -145,10 +144,6 @@ font-size: 10pt;
     padding: 50px 5% 70px 5%;
 }
 
-.main_block>div{
-    /* margin-bottom: 30px; */
-}
-
 .hello_block{
     display: flex;
     flex-flow: column;
@@ -162,10 +157,6 @@ font-size: 10pt;
     flex: 0 1 auto;
 }
 
-.hello_block>div>h5{
-    /* margin: 0px; */
-}
-
 .hello_block>div>p{
     margin: auto;
     width: 80%;
@@ -174,18 +165,12 @@ font-size: 10pt;
     /* margin-top: 20px; */
 }
 
-.what_can_i_block>div:nth-of-type(1){
-    /* margin-bottom: 20px; */
-}
-
 .design{
     min-height: 80px;
     margin-bottom: 25px;
 }
 
 .fullStack{
-    /* margin: 0px 30px 0px 50px; */
-    /* margin-bottom: 50px; */
     min-height: 80px;
 }
 
@@ -201,10 +186,6 @@ font-size: 10pt;
 .skills_block{
     margin-bottom: 20px;
     min-height: 80px;
-}
-
-.contacts{
-    /* margin-bottom: 10px; */
 }
 
 .social{
@@ -225,7 +206,6 @@ footer{
     background-color: rgba(125, 125, 125, 0.3);
     margin-top: -50px;
     text-align: center;
-    /* padding:0px 10px 0px 5px; */
     display: flex;
     flex-flow: column;
     justify-content: center;
@@ -235,8 +215,6 @@ footer{
 footer>div{
     font-size: 10pt;
 }
-
-/* */
 
 .imageFirst{
     background-image: url(/images/icons/gdpr-white.png);
@@ -270,14 +248,10 @@ footer>div{
 .psIcon{
     background-image: url(/images/icons/Ps.png);
     background-repeat: no-repeat;
-    /* width: 50px; */
     height: 80px;
     width: 80px;
-    /* height: 50px; */
     background-size: contain;
-    margin-right: 20px;
-    
-    
+    margin-right: 20px;  
 }
 
 .aiIcon{
